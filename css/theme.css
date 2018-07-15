@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+}
+nav ul {
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid black;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 5em;
+    font-weight: 100;
+}
+#rechtliches li a{
+    color: black;
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: 100;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 100;
+}
+h1 {
+    font-size: 6.5em;
+    margin: 0 0 2% 0;
+}
+h3 {
+    font-size: 3em;
+}
+p, dl {
+    font-family: sans-serif;
+    font-size: 1.6em;
+    line-height: 1.5em;
+    font-weight: 100;
+}
+section {
+    min-height: 40vh;
+    margin:  0;
+    padding: 3% 10% 10% 5%;
+}
+#start {
+    background: rgb(244, 247, 252);
+}
+
+#gesang {
+    background: rgb(243, 255, 221);
+}
+
+#klavier {
+    background: rgb(209, 255, 218);
+}
+
+#songwriting {
+    background: rgb(174, 255, 192);
+}
+
+#info {
+    background: rgb(113, 232 ,171);
+}
+
+#kontakt {
+    background:rgb(68, 160, 193);
+}
+
+#blog {
+    background: rgb(91, 194, 217);
+}
+
+.margin-left {
+    margin-left: 20%;
+}
+
+.pMargin {
+    margin-top:2%;
+    margin-bottom: 5%;
+}
+
+#rechtliches {
+    margin-top: 5%;
+}
+.content-flex {
+    display: flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+}
+section .content{
+    width:50%;
+}
+.content-center {
+    padding: 0 10%;
+}
